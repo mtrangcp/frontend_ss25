@@ -1,4 +1,4 @@
-let users = ["ha@gmail.vn"];
+let users = ["ha@gmail.com"];
 const emailRegex = /^[^\s@]+@[^\s@]+\.(com|vn)$/;
 
 const checkEmail = (email) => {
