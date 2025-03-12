@@ -11,6 +11,8 @@ do {
 
     switch (choice) {
         case 1: {
+            console.log("Danh sách sản phẩm: ");
+
             for (let i = 0; i < products.length; i++) {
                 console.log(`Tên sản phẩm: ${products[i][0]} - Số lượng: ${products[i][1]} - Giá: ${products[i][2]}`);
             }
